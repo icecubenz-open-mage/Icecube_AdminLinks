@@ -1,13 +1,13 @@
 <?php
 
-class Icecube_AdminPreviewLinks_Block_Adminhtml_Catalog_Category_Edit_Buttons extends Mage_Adminhtml_Block_Catalog_Category_Abstract
+class Icecube_AdminLinks_Block_Adminhtml_Catalog_Category_Edit_Buttons extends Mage_Adminhtml_Block_Catalog_Category_Abstract
 {
     /**
      * @var Mage_Catalog_Model_Category Category instance
      */
     private $_category;
 
-    public function addPreviewButton()
+    public function addButton()
     {
         $this->_category = $this->getCategory();
 
@@ -17,7 +17,7 @@ class Icecube_AdminPreviewLinks_Block_Adminhtml_Catalog_Category_Edit_Buttons ex
         // only show button for active categories and not add new category page
         if ($this->_isActive()) {
             $this->getParentBlock()->getChild('form')
-                ->addAdditionalButton('icecube_admin_preview_links_category_button', array(
+                ->addAdditionalButton('icecube_admin_links_category_button', array(
                     'label'    => Mage::helper('catalog')->__('View Category Page'),
                     'onclick'  => 'window.open(\''. $destinationUrl .'\')',
                     'disabled' => !$this->_isActive(),

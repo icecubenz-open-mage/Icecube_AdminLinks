@@ -2,8 +2,8 @@
 <layout>
     <adminhtml_catalog_category_edit>
         <reference name="category.edit">
-            <block name="icecube_admin_preview_links.buttons" type="icecube_admin_preview_links/adminhtml_catalog_category_edit_buttons">
-                <action method="addPreviewButton"/>
+            <block name="icecube_admin_links.buttons" type="icecube_admin_links/adminhtml_catalog_category_edit_buttons">
+                <action method="addButton"/>
             </block>
         </reference>
     </adminhtml_catalog_category_edit>

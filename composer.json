@@ -1,9 +1,9 @@
 {
-    "name": "icecube/admin-preview-links",
+    "name": "icecube/admin-links",
     "license": "MIT",
     "type": "magento-module",
-    "description": "Show Preview Links for Category, Product and CMS Pages in OpenMage / Magento 1",
-    "homepage": "https://github.com/icecubenz-open-mage/Icecube_AdminPreviewLinks",
+    "description": "Show Frontend Links for Category, Product and CMS Pages in OpenMage / Magento 1",
+    "homepage": "https://github.com/icecubenz-open-mage/Icecube_AdminLinks",
     "authors": [
         {
             "name": "Icecube"

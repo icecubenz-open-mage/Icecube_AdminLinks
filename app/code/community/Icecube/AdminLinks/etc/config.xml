@@ -23,10 +23,18 @@
                 <observers>
                     <icecube_admin_links>
                         <class>icecube_admin_links/observer</class>
-                        <method>addProductLinkButton</method>
+                        <method>addProductButton</method>
                     </icecube_admin_links>
                 </observers>
             </adminhtml_block_html_before>
+            <adminhtml_widget_container_html_before>
+                <observers>
+                    <icecube_admin_links>
+                        <class>icecube_admin_links/observer</class>
+                        <method>addCmsPageButton</method>
+                    </icecube_admin_links>
+                </observers>
+            </adminhtml_widget_container_html_before>
         </events>
         <layout>
             <updates>

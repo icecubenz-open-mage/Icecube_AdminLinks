@@ -38,7 +38,7 @@ class Icecube_AdminLinks_Block_Adminhtml_Catalog_Category_Edit_Buttons extends M
     private function _isActive()
     {
         $storeId = $this->_getStoreId();
-        return $this->_category->setStoreId($storeId)->getIsActive() && $this->_category->setStoreId($storeId)->getIsActive();
+        return $this->_category->setStoreId($storeId)->getIsActive();
     }
 
     /**

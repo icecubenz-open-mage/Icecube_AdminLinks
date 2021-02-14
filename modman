@@ -1,0 +1,4 @@
+app/code/community/Icecube/AdminPreviewLinks/                                   app/code/community/Icecube/AdminPreviewLinks/
+app/design/adminhtml/default/default/layout/icecube/admin_preview_links.xml     app/design/adminhtml/default/default/layout/icecube/admin_preview_links.xml
+app/design/adminhtml/default/default/template/icecube/admin_preview_links/      app/design/adminhtml/default/default/template/icecube/admin_preview_links/
+app/etc/modules/Icecube_AdminPreviewLinks.xml                                   app/etc/modules/Icecube_AdminPreviewLinks.xml
